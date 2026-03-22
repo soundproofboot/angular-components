@@ -1,12 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { PizzaToppings } from './pizza-toppings/pizza-toppings';
+import { TsteeleMultiplication } from './tsteele-multiplication/tsteele-multiplication';
 import { CbaresDiceRoll } from './cbares-dice-roll/cbares-dice-roll';
 
 @Component({
   selector: 'app-root',
   imports: [
     PizzaToppings,
-    CbaresDiceRoll
+    TsteeleMultiplication,
+    CbaresDiceRoll,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
